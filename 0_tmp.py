@@ -14,3 +14,11 @@ print('\nFunkcje')
 def after_a(text):
     return text[text.index('a') +1]
 
+my_string = "mama.kupila.psa"
+print(after_a(my_string))
+
+print('\nZbiory')
+zbior1 = {'.', ',', '(', '\'', '\"'}
+zbior2 = set(',.(\'\"')
+print(f'zbior1: {zbior1}')
+print(f'zbior2: {zbior2}')
