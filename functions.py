@@ -15,7 +15,7 @@ def clear_text(text):
     return text
 
 def read_file(filename):
-    with open('filename', 'r', encoding='utf8') as file1:
+    with open(filename, 'r', encoding='utf8') as file1:
         content = file1.read()
     return content
 
@@ -27,5 +27,6 @@ def words_repeat(text):
             my_dict[word] += 1
         else:
             my_dict[word] = 1
+    return my_dict
 
 
