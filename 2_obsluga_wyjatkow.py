@@ -21,6 +21,8 @@ else:
 
 print(result)
 
+print(type(x))
+
 #IndexError:
 #ZeroDivisionError:
 
