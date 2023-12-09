@@ -9,3 +9,10 @@ df.Weight /= 2.2
 print(df)
 
 print(df.describe().T.to_string())
+df = pd.get_dummies(df)
+print(df)
+df['new'] = df.Weight - 100
+df['new2'] = 6
+print(df)
+del (df['Gender_male'])
+print(df)
